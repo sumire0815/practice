@@ -1,3 +1,75 @@
-h1{
-  color:orange;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+.main{
+  display: flex;
+  justify-content:center;
+}
+
+h3{
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.text{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+.box1 {
+  width: 300px;
+  background-color: #eeeeee;
+  margin:50px 30px;
+}
+
+.box-1{
+  height: 150px;
+  background-image:url(img/flow01.png);
+  background-size: cover;
+  margin: 10px 10px;
+  background-position: center;
+}
+
+.box2 {
+  width: 300px;
+  background-color: #eeeeee;
+  margin:50px 30px;
+}
+
+.box-2{
+  height: 150px;
+  background-image:url(img/flow02.png);
+  background-size: cover;
+  margin: 10px 10px;
+  background-position: center;
+}
+
+.box3 {
+  width: 300px;
+  background-color: #eeeeee;
+  margin:50px 30px;
+}
+
+.box-3{
+  height: 150px;
+  background-image:url(img/flow03.png);
+  background-size: cover;
+  margin: 10px 10px;
+  background-position: center;
+}
+
+.footer {
+  width: 100%;
+  height:50px;
+  background-color: #aaaaaa;
 }
